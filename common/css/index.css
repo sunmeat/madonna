@@ -1,0 +1,69 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,                                                                                                       
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+
+ul {list-style: none;}
+ol{list-style: decimal;}
+blockquote, q {quotes: none;}
+
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+td{vertical-align: top;}
+*:focus {outline: none;}
+
+.container{background-color:#ffe3e8; position:relative;}
+.center{width:1050px; margin: 0 auto; position:relative; margin-left:0px;}
+.header{height:225px;}
+.logo{position:absolute; top: 50px; left: 95px; color:#f332ba; font-size:50pt;}
+
+.menu1{position: absolute; top:160px; left:50px; color:#030301; }
+.menu1 li{display: inline-table; font-family: Tahoma; font-size:10pt;} 
+.menu1 li a{display:block; border-left: #030301 3px solid; padding:0 40px 0 13px; width:82px; height:40px;  color:#f332ba; text-decoration: none;}
+.menu1 li a:hover{border-left:#f332ba 4px solid; background-color:#fff9c7; }
+.language{position:absolute; right:20px; top:65px;}
+.language li{display: inline-table; font-family: Tahoma; font-size:10pt; } 
+.language li a{display: block;  color:#030301; text-decoration: none; width:28px; height:24px; padding:2px 0 0 8px;}
+.language li a:hover{ display:block; color:white; color:#ffffff; background-color:#f332ba; text-decoration: none;}
+
+
+.middle{background-color:#fff9c7; width:100%; height: 286px;}
+
+.m1{float:right; margin-right:-60px;}
+.TextMid{width:560px; font-size: 22pt; color:#494949; font-family: Tahoma; padding:35px 20px 25px 100px;}
+.TextMidLink{color:#494949; text-decoration:none;}
+.TextMid2{ width:560px; color:#737373; font-size:10pt; padding:0 0 0 100px; font-family:Tahoma;}
+.more{width:150px; position:absolute; top:220px; right:210px; height:35px; background-color:#f332ba;}
+.MoreText{display:block; text-decoration:none; padding:6px 0 0 10px; color:white; font-family:Tahoma; font-size:14pt; width:117px; float:left;}
+
+.footer{width:100%;}
+.FooterText{font-size:10pt; background-color:#c1c8ff; color:#737373; height:50px;  font-family:Tahoma; padding:25px 30px 0 0; width:500px; float:left;}
+    
+
+/*About us*/
+.AboutMiddle{background-color:#fff9c7; width:100%; padding:50px 0 100px 0; font-family:Tahoma; font-size:14pt;}
+.AboutText{width:500px; margin-left:300px;}
+
+/*News*/
+.NewsMiddle{background-color:#fff9c7; width:100%; padding:50px 0 100px 0; font-family:Tahoma; font-size:14pt;}
+.NewsList{margin-left:200px; width:400px;}
+.NewsText{width:650px; margin-left:200px;}
+
+.NewsPic{margin-top:20px; margin-right:20px;}
+
+
+.ConcertList{ font-family:Tahoma; font-size:12pt;}
+.ConcertList li{display:inline-table; margin-left:15px; margin-bottom:10px;}
+.ConcertDate{}
+.NewsTextConcerts{width:550px; margin-left:200px; background-color:#FF7F00; color:#ffffff;}
+.NewsTextConcertsAlbums{width:750px; margin-left:200px; background-color:#EE7AE9; color:#ffffff;}
